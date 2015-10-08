@@ -572,7 +572,7 @@ If you want to change these parameters, then modify the values in the macro\_uti
 
 In order to use the new version of macro\_utils.h, you'll need to remove the **serializer** NuGet package from your solution and in its place include the **serializer** Visual Studio project.  This allows your code to compile against the source code of the serializer library- that includes the updated macro\_utils.h.  Let's say you want to do this for **simplesample\_amqp**.  You would start by removing the NuGet package for the serializer library from the solution:
 
-   ![](media/iot-hub-device-sdk-c-serializer/04-serializer_github_package.PNG)
+   ![](media/iot-hub-device-sdk-c-serializer/04-serializer-github-package.PNG)
 
 And then add this project to your Visual Studio solution:
 
@@ -580,7 +580,7 @@ And then add this project to your Visual Studio solution:
 
 When you're done, your solution should look like this:
 
-   ![](media/iot-hub-device-sdk-c-serializer/05-serializer_project.PNG)
+   ![](media/iot-hub-device-sdk-c-serializer/05-serializer-project.PNG)
 
 Now when you compile your solution, the updated macro\_utils.h will be included in your binary.
 
