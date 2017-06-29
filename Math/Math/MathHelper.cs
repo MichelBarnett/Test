@@ -20,9 +20,9 @@ namespace Math
             return product;
         }
 
-        public static int Divide(int dividend, int divisor)
+        public static double Divide(double dividend, double divisor)
         {
-            int quotient = dividend / divisor;
+            double quotient = dividend / divisor;
             return quotient;
         }
     }
