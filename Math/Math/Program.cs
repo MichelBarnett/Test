@@ -21,9 +21,9 @@ namespace Math
             Console.WriteLine($"{factor1} * {factor2} = {product}");
             Console.WriteLine();
 
-            int dividend = 12;
-            int divisor = 3;
-            int quotient = MathHelper.Divide(dividend, divisor);
+            float dividend = 12;
+            float divisor = 3;
+            float quotient = MathHelper.Divide(dividend, divisor);
             Console.WriteLine($"{dividend} / {divisor} = {quotient}");
             Console.WriteLine();
 
