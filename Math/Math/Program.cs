@@ -21,6 +21,18 @@ namespace Math
             Console.WriteLine($"{param1} - {param2} = {difference}");
             Console.WriteLine();
 
+            int factor1 = 6;
+            int factor2 = 7;
+            int product = MathHelper.Multiply(factor1, factor2);
+            Console.WriteLine($"{factor1} * {factor2} = {product}");
+            Console.WriteLine();
+
+            int dividend = 12;
+            int divisor = 3;
+            int quotient = MathHelper.Divide(dividend, divisor);
+            Console.WriteLine($"{dividend} / {divisor} = {quotient}");
+            Console.WriteLine();
+
             Console.WriteLine("Press enter to quit");
             Console.ReadLine();
         }
