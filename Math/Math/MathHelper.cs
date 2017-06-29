@@ -14,12 +14,6 @@ namespace Math
             return sum;
         }
 
-        public static int Subtract(int param1, int param2)
-        {
-            int difference = param1 - param2;
-            return difference;
-        }
-
         public static int Multiply(int factor1, int factor2)
         {
             int product = factor1 * factor2;

@@ -15,12 +15,6 @@ namespace Math
             Console.WriteLine($"{param1} + {param2} = {sum}");
             Console.WriteLine();
 
-            param1 = 15;
-            param2 = 4;
-            int difference = MathHelper.Subtract(param1, param2);
-            Console.WriteLine($"{param1} - {param2} = {difference}");
-            Console.WriteLine();
-
             int factor1 = 6;
             int factor2 = 7;
             int product = MathHelper.Multiply(factor1, factor2);
